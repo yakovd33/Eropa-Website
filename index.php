@@ -94,7 +94,7 @@
 						</div>
 					</div> -->
 					<div class="logo"> <span><strong><i class="fa fa-globe" aria-hidden="true"></i> אירופה</strong></span> <span>בניית אתרים</span> </div>
-					<h1 id="hero-new-content-title">אנחנו נותנים בדיקהה דיגיטליים בשבילכם!</h1>
+					<h1 id="hero-new-content-title">אנחנו נותנים פתרונות דיגיטליים בשבילכם!</h1>
 					<h4 id="hero-new-content-slogan"><i class="fas fa-check-circle" aria-hidden="true"></i> סטנדרט אירופאי אמיתי</h4>
 				</div>
 			</div>
