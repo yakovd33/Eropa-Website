@@ -11,8 +11,11 @@
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"></script>
 		<script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
 		<!-- <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:2153103,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script> -->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@600&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div id="mouse-tracker"></div>
+
 		<div id="preload">
 			<div id="preload-content">
 				<!-- <div id="preload-icon"></div> -->
@@ -87,15 +90,27 @@
 					</svg>
 				</div>
 				<div id="hero-new-particles"></div>
-				<div id="hero-new-content">
-					<!-- <div id="hero-logo">
-						<div class="hero__cell one">
-							<h1>אירופה בניית אתרים</h1>
-						</div>
-					</div> -->
+				<!-- <div id="hero-new-content">
 					<div class="logo"> <span><strong><i class="fa fa-globe" aria-hidden="true"></i> אירופה</strong></span> <span>בניית אתרים</span> </div>
 					<h1 id="hero-new-content-title">אנחנו נותנים פתרונות דיגיטליים בשבילכם!</h1>
 					<h4 id="hero-new-content-slogan"><i class="fas fa-check-circle" aria-hidden="true"></i> סטנדרט אירופאי אמיתי</h4>
+				</div> -->
+
+				<div id="hero-content-2021" class="container">
+					<div id="hero-content-right">
+						<h1 id="hero-content-header">
+							<span id="hero-content-static">
+								<div class="hero-content-line">אנחנו באירופה</div>
+								<div class="hero-content-line">נותנים שירות עבור</div>
+							</span>
+
+							<span>
+								<div class="hero-content-line">העסק שלך</div>
+							</span>
+						</h1>
+
+						<p id="hero-content-para">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך חקיגו רוגצה.</p>
+					</div>
 				</div>
 			</div>
 			<div class="section" id="what-can-we-do-section">
@@ -108,7 +123,7 @@
 									<div class="bg-cow-top bg-top-1"></div>
 									<div class="icon"><i class="far fa-file-alt"></i></div>
 									<div class="text">
-										<div class="title">תכנון</div>
+										<div class="title">איפיון ותכנון</div>
 										<div class="det"> לפני שמתחילים לבנות לכם את האתר המושלם עבורכם, ישב איתכם הצוות שלנו על מנת להבין מה אתם דורשים וביחד נתכנן את האיפיון. שלב זה קריטי על מנת שנוכל לתאם ציפיות ותהיו מרוצים. </div>
 									</div>
 								</div>
@@ -119,7 +134,7 @@
 									<div class="bg-cow-bottom bg-bottom-2"></div>
 									<div class="icon"><i class="far fa-gem"></i></div>
 									<div class="text">
-										<div class="title">עיצוב</div>
+										<div class="title">עיצוב וחווית משתמש</div>
 										<div class="det"> עיצוב האתר הוא הדבר הראשון שרואה הלקוח ואולי הדבר החשוב ביותר באתר. האתרים שלנו מעוצבים בקפידה. עיצוב מודרני, יפה ונעים לעין אנו באירופה בניית אתרים שמים דגש על עיצוב שייצג אתכם באופן הטוב ביותר. </div>
 									</div>
 								</div>
@@ -130,7 +145,7 @@
 									<div class="bg-cow-bottom bg-bottom-3"></div>
 									<div class="icon"><i class="fas fa-code"></i></div>
 									<div class="text">
-										<div class="title">תכנות ובנייה</div>
+										<div class="title">בנייה ותכנות</div>
 										<div class="det"> אחרי שתכננו ועיצבנו את האתר זה הזמן להתחיל לעבוד עליו. במהלך כל שלבי הבנייה תוכלו לבדוק את ההתקדמות בעצמכם ולתת את חוות דעתכם על מנת שנוכל לשפר את העבודה כרצונכם. </div>
 									</div>
 								</div>
@@ -141,7 +156,7 @@
 									<div class="bg-cow-bottom bg-bottom-4"></div>
 									<div class="icon"><i class="fas fa-chart-line"></i></div>
 									<div class="text">
-										<div class="title">קידום</div>
+										<div class="title">שיווק וקידום</div>
 										<div class="det" style="margin-bottom: 14px"> אם האתר שלכם לא מופיע באחד המקומות הראשונים אז אתם לא באמת מנצלים את הפוטנציאל הקיים של העסק שלכם. לכן אנחנו באים לעזור לעסקים הקטנים להתקדם בתוצאות בגוגל! </div>
 									</div>
 								</div>
@@ -164,6 +179,17 @@
 					</svg>
 				</div>
 			</div>
+			
+			<div id="packages-section-top-bg">
+				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+					<path fill="#ff5500" fill-opacity="1" d="M0,128L60,138.7C120,149,240,171,360,165.3C480,160,600,128,720,96C840,64,960,32,1080,42.7C1200,53,1320,107,1380,133.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+				</svg> -->
+
+				<div class="wrapper">
+					<div class="wave"></div>
+				</div>
+			</div>
+
 			<div id="packages-section">
 				<div id="packages-section-title-wrap">
 					<div id="packages-section-tiny-title"> בחר/י את התוכנית שמדברת אלייך </div>
@@ -179,7 +205,7 @@
 						<div class="col-md-4">
 							<div class="packaging-item" id="italy-package-item">
 								<div class="packaging-item-top-bg" id="italy-top-bg"></div>
-								<div class="packaging-item-package-name">איטליה</div>
+								<div class="packaging-item-package-name">One Page</div>
 								<div class="packaging-item-flag" id="italy-flag">
 									<h1 class="packaging-item-flag-title">עמוד נחיתה</h1>
 									<div class="packaging-item-flag-desc">כך תשיגו לקוחות פוטנציאליים</div>
@@ -205,7 +231,7 @@
 						<div class="col-md-4">
 							<div class="packaging-item" id="germany-package-item">
 								<div class="packaging-item-top-bg" id="germany-top-bg"></div>
-								<div class="packaging-item-package-name">גרמניה</div>
+								<div class="packaging-item-package-name">אתר מכירתי</div>
 								<div class="packaging-item-flag" id="germany-flag">
 									<h1 class="packaging-item-flag-title">אתר חנות למכירות</h1>
 									<div class="packaging-item-flag-desc">להשיג יותר מכירות דרך הרשת</div>
@@ -231,7 +257,7 @@
 						<div class="col-md-4">
 							<div class="packaging-item" id="russia-package-item">
 								<div class="packaging-item-top-bg" id="russia-top-bg"></div>
-								<div class="packaging-item-package-name">רוסיה</div>
+								<div class="packaging-item-package-name">אתר תדמיתי</div>
 								<div class="packaging-item-flag" id="russia-flag">
 									<h1 class="packaging-item-flag-title">אתר אינטרנט</h1>
 									<div class="packaging-item-flag-desc">אתר תדמית לקידום העסק שלכם</div>
@@ -314,12 +340,12 @@
 						</div>
 					</a>
 				</div>
-				<a href="https://eropa.co.il/blog/portfolios/" id="show-portfolio-btn">הצג את תיק העבודות המלא <i class="fas fa-angle-left"></i></a> 
+				<a href="https://eropa.co.il/blog/portfolios/" id="show-portfolio-btn">אל תיק העבודות המלא <i class="fas fa-angle-left"></i></a> 
 			</div>
 			<br>
 			<div id="hero">
 				<div id="hero-content">
-					<div id="contact-typer" data-text="צרו איתנו קשר היום לסגירת עסקה!!1"></div>
+					<div id="contact-typer" data-text="צרו איתנו קשר היום והזניקו את העסק שלכם!!1"></div>
 					<button class="cute-btn jump-to-section" data-section="contact">אנחנו זמינים לעבודה</button> 
 				</div>
 				<div class="next-section-trigger jump-to-section" data-section="work">
@@ -439,7 +465,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="coffee-section">
+			<div id="coffee-section" class="container">
 				<div id="coffee-section-title"><i class="fas fa-mug-hot"></i> בואו נשב על כוס קפה</div>
 				<div id="coffee-section-inputs"> <input type="text" id="contact-fullname" class="coffee-section-input" placeholder="שמך המלא"> <input type="text" id="contact-way" class="coffee-section-input" placeholder="אימייל/טלפון"> <input type="submit" id="contact-submit" class="coffee-section-input" value="שלח וניצור איתך קשר"> </div>
 				<div id="contact-feedback">להלהלהלהלהל</div>
@@ -491,7 +517,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="copyright">© 2017-2021 <a href="https://www.eropa.co.il">eropa.co.il</a>. All Rights Reserved.</p>
+						<p class="copyright">כל הזכויות שמורות 2017-<?php echo date('Y'); ?> © <a href="https://www.eropa.co.il">מקבוצת אירופה דיגיטל</a></p>
 					</div>
 				</div>
 			</div>

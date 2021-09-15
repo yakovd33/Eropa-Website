@@ -239,7 +239,7 @@ $(window).mousemove(function(e) {
 $(window).scroll(function () {
 	if ($(window).scrollTop() > $("#packages-section-title").offset().top) {
 		if ($(window).scrollTop() < $("#packages-section-title-tech").offset().top) {
-			$("#coffee-section").css('bottom', 0)
+			$("#coffee-section").css('bottom', 20)
 		} else {
 			$("#coffee-section").css('bottom', '-100%')
 		}
@@ -278,4 +278,39 @@ $('.cookies-accept').on('click', e => {
 	}, 400);
 
 	setCookie('accept-cookies', true, 30)
+});
+
+// Cursor
+$(document).mousemove(function (e) {
+	if ($(e.target).css('cursor') == 'pointer') {
+		$("#mouse-tracker").css({
+			height: 30,
+			width: 30,
+			opacity: 0.25,
+			background: '#07c1e7'
+		}).addClass("hvr-pulse")
+	} else {
+		$("#mouse-tracker").css({
+			height: 25,
+			width: 25,
+			opacity: 0.1,
+			background: '#888'
+		}).removeClass("hvr-pulse")
+	}
+
+	if ($(e.target).hasClass("particles-js-canvas-el")) {
+		$("#mouse-tracker").css({
+			background: '#fff',
+			opacity: 0.2
+		})
+	} else {$("#mouse-tracker").css({
+		background: '#888'
+	})
+
+	}
+
+	$("#mouse-tracker").css({
+		left:  e.clientX - $("#mouse-tracker").width() / 2,
+		top: e.clientY - $("#mouse-tracker").height() / 2
+	})
 })
