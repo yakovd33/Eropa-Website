@@ -96,11 +96,11 @@
 				</div> -->
 
 				<div id="hero-content-2021" class="container">
+					<div id="hero-content-left" class="col-md-6">
+						<img src="media/hero-ill.png" alt="">
+					</div>
+
 					<div id="hero-content-right" class="col-md-6">
-						<div id="hero-content-left" class="col-md-6">
-							<img src="media/hero-ill.png" alt="">
-						</div>
-						
 						<h1 id="hero-content-header">
 							<span id="hero-content-static">
 								<div class="hero-content-line">אנחנו באירופה</div>
