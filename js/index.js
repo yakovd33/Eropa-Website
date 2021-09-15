@@ -313,4 +313,4 @@ $(document).mousemove(function (e) {
 		left:  e.clientX - $("#mouse-tracker").width() / 2,
 		top: e.clientY - $("#mouse-tracker").height() / 2
 	})
-})
+});

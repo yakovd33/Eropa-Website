@@ -11,7 +11,6 @@
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"></script>
 		<script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
 		<!-- <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:2153103,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script> -->
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@600&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div id="mouse-tracker"></div>
@@ -110,6 +109,10 @@
 						</h1>
 
 						<p id="hero-content-para">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך חקיגו רוגצה.</p>
+					</div>
+
+					<div id="hero-content-left">
+						<img src="media/hero-ill.png" alt="">
 					</div>
 				</div>
 			</div>
