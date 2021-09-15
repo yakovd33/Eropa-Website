@@ -8,8 +8,8 @@
 		<title>אירופה בניית אתרים | איפיון, עיצוב ופיתוח אתרים | קידום לעסק שלכם</title>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="css/index.css">
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"></script>
-		<script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL" defer></script>
+		<script defer>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
 		<!-- <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:2153103,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script> -->
 	</head>
 	<body>
@@ -101,6 +101,8 @@
 					</div>
 
 					<div id="hero-content-right" class="col-md-6">
+						<div id="hero-content-right-dots"></div>
+						
 						<h1 id="hero-content-header">
 							<span id="hero-content-static">
 								<div class="hero-content-line">אנחנו באירופה</div>
@@ -108,7 +110,7 @@
 							</span>
 
 							<span>
-								<div class="hero-content-line">העסק שלך</div>
+								<div class="hero-content-line" id="hero-typing"></div>
 							</span>
 						</h1>
 
@@ -166,13 +168,13 @@
 							</div>
 						</div>
 						<div id="our-technologies">
-							<div class="technology" data-aos="flip-down" data-title="HTML5"><i class="fab fa-html5" aria-hidden="true"></i></div>
-							<div class="technology" data-aos="flip-down" data-title="CSS3"><i class="fab fa-css3" aria-hidden="true"></i></div>
-							<div class="technology" data-aos="flip-down" data-title="PHP &amp; Node.js &amp; Django"><i class="fa fa-globe" aria-hidden="true"></i></div>
-							<div class="technology" data-aos="flip-down" data-title="MySql"><i class="fa fa-database" aria-hidden="true"></i></div>
-							<div class="technology" data-aos="flip-down" data-title="עיצוב"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-							<div class="technology" data-aos="flip-down" data-title="וורדפרס"><i class="fab fa-wordpress" aria-hidden="true"></i></div>
-							<div class="technology" data-aos="flip-down" data-title="אנדרואיד"><i class="fab fa-android" aria-hidden="true"></i></div>
+							<div class="technology" data-title="HTML5"><i class="fab fa-html5" aria-hidden="true"></i></div>
+							<div class="technology" data-title="CSS3"><i class="fab fa-css3" aria-hidden="true"></i></div>
+							<div class="technology" data-title="PHP &amp; Node.js &amp; Django"><i class="fa fa-globe" aria-hidden="true"></i></div>
+							<div class="technology" data-title="MySql"><i class="fa fa-database" aria-hidden="true"></i></div>
+							<div class="technology" data-title="עיצוב"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
+							<div class="technology" data-title="וורדפרס"><i class="fab fa-wordpress" aria-hidden="true"></i></div>
+							<div class="technology" data-title="אנדרואיד"><i class="fab fa-android" aria-hidden="true"></i></div>
 						</div>
 					</div>
 				</div>
@@ -526,10 +528,10 @@
 			</div>
 		</footer>
 
-		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-		<script src="https://kit.fontawesome.com/0e816a6ea7.js" crossorigin="anonymous"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+		<script src="https://kit.fontawesome.com/0e816a6ea7.js" crossorigin="anonymous" defer></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" defer integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
 
 		<script>
 			window.onload = function() {
@@ -629,6 +631,6 @@
 			});
 		</script>
 		
-		<script src="js/index.js"></script>
+		<script src="js/index.js" defer></script>
 	</body>
 </html>

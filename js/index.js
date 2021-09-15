@@ -250,7 +250,7 @@ $(window).scroll(function () {
 
 // Preload
 setTimeout(function () {
-	$("#preload").hide();
+	$("#preload").fadeOut();
 	$('body').css('overflow-y', 'scroll');
 }, 1000);
 
@@ -295,22 +295,33 @@ $(document).mousemove(function (e) {
 			width: 25,
 			opacity: 0.1,
 			background: '#888'
-		}).removeClass("hvr-pulse")
-	}
+		}).removeClass("hvr-pulse");
 
-	if ($(e.target).hasClass("particles-js-canvas-el")) {
-		$("#mouse-tracker").css({
-			background: '#fff',
-			opacity: 0.2
-		})
-	} else {$("#mouse-tracker").css({
-		background: '#888'
-	})
-
+		if ($(e.target).hasClass("particles-js-canvas-el")) {
+			$("#mouse-tracker").css({
+				background: '#fff',
+				opacity: 0.2
+			})
+		} else {
+			$("#mouse-tracker").css({
+				background: '#888'
+			})
+		}
 	}
 
 	$("#mouse-tracker").css({
 		left:  e.clientX - $("#mouse-tracker").width() / 2,
 		top: e.clientY - $("#mouse-tracker").height() / 2
 	})
+});
+
+// Hero typing machine animation
+$(document).ready(function () {
+	typing_texts = [ 'העסק שלך' ,'החלומות שלך', 'ההתקדמות שלך' ];
+
+	for (i = 0; i < typing_texts.length; i++) {
+		setTimeout(function (i) {
+			typing_machine_input(typing_texts[i], $("#hero-typing"));
+		}, (1500 * (i + 1)) + 200, i)
+	}
 });

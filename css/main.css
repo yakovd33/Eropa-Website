@@ -1144,6 +1144,19 @@ footer .copyright {
         transform: translatey(0);
     }
 }
+
+@keyframes img-float {
+    0% {
+        transform: translatey(0);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0);
+    }
+}
+
 @keyframes phone-icon-animate {
     0%,
     100% {
