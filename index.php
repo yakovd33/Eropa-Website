@@ -97,6 +97,10 @@
 
 				<div id="hero-content-2021" class="container">
 					<div id="hero-content-right" class="col-md-6">
+						<div id="hero-content-left" class="col-md-6">
+							<img src="media/hero-ill.png" alt="">
+						</div>
+						
 						<h1 id="hero-content-header">
 							<span id="hero-content-static">
 								<div class="hero-content-line">אנחנו באירופה</div>
@@ -109,10 +113,6 @@
 						</h1>
 
 						<p id="hero-content-para">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך חקיגו רוגצה.</p>
-					</div>
-
-					<div id="hero-content-left" class="col-md-6">
-						<img src="media/hero-ill.png" alt="">
 					</div>
 				</div>
 			</div>
