@@ -1335,4 +1335,8 @@ footer .copyright {
         width: 100%;
         max-width: 100%;
     }
+
+    #mouse-tracker {
+        display: none !important;
+    }
 }

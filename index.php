@@ -9,6 +9,7 @@
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="css/main.min.css">
 		<link rel="stylesheet" href="css/index.min.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css">
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"  ></script>
 		<script  >window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
 		<!-- <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:2153103,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script> -->
