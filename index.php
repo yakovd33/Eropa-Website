@@ -35,18 +35,20 @@
 		<?php endif; ?>
 
 		<nav id="main-nav" class="navbar current-main-nav">
-			<div id="main-nav-content">
-				<div class="logo pull-right"> <a href="https://eropa.co.il"> <img src="media/logo.png" height="35px" alt=""> </a> </div>
-				<div class="nav-links pull-left">
-					<a href="/blog/portfolio/" class="link">תיק עבודות</a> <a href="/blog/" class="link">בלוג</a> <a href="" class="link" onclick="jump_to_element($('footer'), event)">אודות</a> <a href="" class="link" onclick="jump_to_element($('#projects-section'), event)">לקוחות שלנו</a> <a href="" class="link" id="menu-contact-link">צרו קשר</a> <a href="tel:0586194321" id="call-btn"> התקשרו עכשיו <span id="call-btn-i-wrap"> <i class="fa fa-phone"></i> </span> </a><!-- <span class="phone-ring"> <span class="phone-ring__icon"> <i class="fa fa-phone"></i> </span> </span> --> 
+			<div class="container" id="main-nav-wrap">
+				<div id="main-nav-content">
+					<div class="logo pull-right"> <a href="https://eropa.co.il"> <img src="media/logo.png" height="35px" alt=""> </a> </div>
+					<div class="nav-links pull-left">
+						<a href="/blog/portfolio/" class="link">תיק עבודות</a> <a href="/blog/" class="link">בלוג</a> <a href="" class="link" onclick="jump_to_element($('footer'), event)">אודות</a> <a href="" class="link" onclick="jump_to_element($('#projects-section'), event)">לקוחות שלנו</a> <a href="" class="link" id="menu-contact-link">צרו קשר</a> <a href="tel:0586194321" id="call-btn"> התקשרו עכשיו <span id="call-btn-i-wrap"> <i class="fa fa-phone"></i> </span> </a><!-- <span class="phone-ring"> <span class="phone-ring__icon"> <i class="fa fa-phone"></i> </span> </span> --> 
+					</div>
+					<div id="mobile-nav-toggler" class="show-on-mobile pull-left">
+						<div class="mobile-nav-toggle-bar" id="first"></div>
+						<div class="mobile-nav-toggle-bar" id="sec"></div>
+						<div class="mobile-nav-toggle-bar" id="last"></div>
+					</div>
 				</div>
-				<div id="mobile-nav-toggler" class="show-on-mobile pull-left">
-					<div class="mobile-nav-toggle-bar" id="first"></div>
-					<div class="mobile-nav-toggle-bar" id="sec"></div>
-					<div class="mobile-nav-toggle-bar" id="last"></div>
-				</div>
+				<div id="mobile-nav"> <a href="" class="mobile-nav-link">תיק עבודות</a> <a href="" class="mobile-nav-link">אודות</a> <a href="" class="mobile-nav-link">לקוחות שלנו</a> <a href="" class="mobile-nav-link">צרו קשר</a> </div>
 			</div>
-			<div id="mobile-nav"> <a href="" class="mobile-nav-link">תיק עבודות</a> <a href="" class="mobile-nav-link">אודות</a> <a href="" class="mobile-nav-link">לקוחות שלנו</a> <a href="" class="mobile-nav-link">צרו קשר</a> </div>
 		</nav>
 
 		<a href="https://api.whatsapp.com/send?phone=972586194321&amp;text=שלום אירופה בניית אתרים." class="float" target="_blank"> <i class="fab fa-whatsapp my-float"></i> </a> 
@@ -110,7 +112,7 @@
 							</span>
 
 							<span>
-								<div class="hero-content-line" id="hero-typing"></div>
+								<div class="hero-content-line" id="hero-typing"><wbr></div>
 							</span>
 						</h1>
 

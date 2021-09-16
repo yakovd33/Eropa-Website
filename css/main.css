@@ -763,6 +763,12 @@ nav#main-nav {
     display: flex;
     align-content: center;
 }
+
+nav#main-nav #main-nav-wrap {
+    display: flex;
+    align-content: center;
+}
+
 #main-nav-content {
     padding: 0 30px;
     margin: 0;
