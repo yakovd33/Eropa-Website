@@ -88,7 +88,7 @@ body {
     padding: 20px;
     flex-wrap: wrap;
     width: 550px;
-    margin-top: 20px;
+    margin-top: -15px;
     max-width: 100%;
 }
 #our-technologies .technology {
@@ -630,6 +630,11 @@ img#ver-dash {
 .wcwd-design-item:hover .icon {
     background-color: #fff;
     color: #00c3ff;
+}
+#what-can-we-do-items {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 30px 0;
 }
 #what-can-we-do-items .grid__col:first-child .wcwd-design-item {
     margin-top: 60px;
@@ -1801,7 +1806,8 @@ textarea.input100 {
     }
 
     #hero-content-header {
-        font-size: 37px;
+        font-size: 43px;
+        margin-top: 20px;
     }
 
     .hero-content-line {
@@ -1920,12 +1926,27 @@ textarea.input100 {
         font-size: 21px;
         padding: 10px;
         width: 100%;
+        padding-top: 40px;
+    }
+    #wcwd-bottom{
+        display: none;
+    }
+    #what-can-we-do-section {
+        padding-bottom: 0;
+        min-height: 350px;
     }
     #our-technologies .technology {
         margin: 5px 8px;
     }
     #packages-section {
-        margin-top: 100px;
+        padding-top: 140px;
+    }
+    .packaging-item {
+        margin-bottom: 35px;
+    }
+
+    #packages-section-desc {
+        font-size: 15px
     }
     .next-section-trigger {
         display: none;

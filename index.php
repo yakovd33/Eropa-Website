@@ -570,6 +570,7 @@
 						autoplaySpeed: 7000,
 						infinite: true,
 						arrows: false,
+						cssEase: 'linear',
 						responsive: [{
 							breakpoint: 3000,
 							settings: {

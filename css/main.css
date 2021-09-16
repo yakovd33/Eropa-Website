@@ -12,6 +12,9 @@
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
+.slick-slider { display: table; table-layout: fixed; width: 100%; }
+
+
 .slick-slide {
     display: none;
     float: left;
@@ -1324,4 +1327,12 @@ footer .copyright {
 .swiper-container-flip .swiper-slide-active,
 .swiper-container-flip .swiper-slide-active .swiper-slide-active {
     pointer-events: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #main-nav .container {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
 }
