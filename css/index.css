@@ -442,7 +442,7 @@ img#ver-dash {
   overflow-x: hidden;
   padding-top: 100px;
   animation-name: hero-bg;
-  animation-duration: 15s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   background-size: 200%;
   background-position: center;
