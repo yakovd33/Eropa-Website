@@ -10,8 +10,8 @@
 		<link rel="stylesheet" href="css/main.min.css">
 		<link rel="stylesheet" href="css/index.min.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css">
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"  ></script>
-		<script  >window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"></script>
+		<script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
 		<!-- <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:2153103,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script> -->
 	</head>
 	<body>
@@ -117,7 +117,7 @@
 							</span>
 						</h1>
 
-						<p id="hero-content-para">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך חקיגו רוגצה.</p>
+						<p id="hero-content-para">אירופה בניית אתרים נוסדה בשנת 2017 על מנת לתת מענה דיגיטלי לאנשים פרטיים ובתי עסק אשר רוצים להתרחב במרחב הדיגיטלי ולפתח את העסק שלהם באינטרנט על מנת למשוך יותר לקוחות ופניות.</p>
 					</div>
 				</div>
 			</div>
