@@ -1796,6 +1796,29 @@ textarea.input100 {
     }
 }
 @media screen and (max-width: 768px) {
+    #hero-content-left {
+        text-align: center;
+    }
+
+    #hero-content-header {
+        font-size: 37px;
+    }
+
+    .hero-content-line {
+        line-height: 34px;
+        margin-top: 10px;
+    }
+
+    #hero-content-para {
+        font-size: 15px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+
+    #hero-content-2021 {
+        padding: 0;
+    }
+
     #hero-new-stars {
         display: none;
     }
@@ -1917,7 +1940,7 @@ textarea.input100 {
         padding: 0 !important;
     }
     #hero-new {
-        padding: 340px 20px 200px 20px;
+        padding: 170px 20px 200px 20px;
     }
     #hero-new-content .logo {
         font-size: 2rem;
