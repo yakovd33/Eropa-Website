@@ -7,9 +7,10 @@
 		<meta name="description" content="אירופה בניית אתרים. מתמחים בעיצוב אתרים, איפיון אתרים ובניית אתרים מקצועיים ברמה הכי גבוהה במחירים שפויים לכל עסק. בונים אתרים מודרניים שאנשים אוהבים. משווקים וממתגים את העסק שלכם. מחירים שפויים לכל כיס."/>
 		<title>אירופה בניית אתרים | איפיון, עיצוב ופיתוח אתרים | קידום לעסק שלכם</title>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"> -->
-		<link rel="stylesheet" href="css/index.css">
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL" defer></script>
-		<script defer>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
+		<link rel="stylesheet" href="css/main.min.css">
+		<link rel="stylesheet" href="css/index.min.css">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TLQVTNCSL"  ></script>
+		<script  >window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-7TLQVTNCSL'); </script>
 		<!-- <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:2153103,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script> -->
 	</head>
 	<body>
@@ -27,11 +28,10 @@
 		</div>
 
 		<?php if (!isset($_COOKIE['accept-cookies'])) : ?>
-			<div class="cookies">
-				<!-- <img class="cookies-icon" src="https://raw.githubusercontent.com/s1mpson/-/master/codepen/we-use-cookies/cookie.png"> -->
+			<!-- <div class="cookies">
 				<span class="cookies-message">אתר זה עושה שימוש בעוגיות.</span>
 				<button class="cookies-accept">אוקיי</button>
-			</div>
+			</div> -->
 		<?php endif; ?>
 
 		<nav id="main-nav" class="navbar current-main-nav">
@@ -528,10 +528,10 @@
 			</div>
 		</footer>
 
-		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
-		<script src="https://kit.fontawesome.com/0e816a6ea7.js" crossorigin="anonymous" defer></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" defer integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script> -->
+		<script src="https://kit.fontawesome.com/0e816a6ea7.js" defer crossorigin="anonymous"  ></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 		<script>
 			window.onload = function() {
@@ -631,6 +631,6 @@
 			});
 		</script>
 		
-		<script src="js/index.js" defer></script>
+		<script src="js/index.min.js" defer></script>
 	</body>
 </html>

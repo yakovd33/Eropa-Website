@@ -135,7 +135,9 @@ const particles = {
 };
 
 $(document).ready(function () {
-	particlesJS("hero-new-particles", particles, function () {});
+	$.getScript('https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js', function (data, textStatus, jqxhr) {
+		particlesJS("hero-new-particles", particles, function () {});
+	});
 });
 
 // Contact
