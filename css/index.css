@@ -2051,6 +2051,7 @@ textarea.input100 {
   }
   #what-can-we-do-items {
     width: 100%;
+    overflow: hidden;
   }
   #what-can-we-do-items .grid__col:first-child .wcwd-design-item {
     margin-top: 0;
