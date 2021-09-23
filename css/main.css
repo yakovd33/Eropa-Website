@@ -1170,6 +1170,18 @@ footer .copyright {
   }
 }
 
+@keyframes typing-line-scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes phone-icon-animate {
   0%,
   100% {

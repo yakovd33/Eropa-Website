@@ -319,11 +319,15 @@ $(document).mousemove(function (e) {
 
 // Hero typing machine animation
 $(document).ready(function () {
-	typing_texts = [ 'העסק שלך' ,'החלומות שלך', 'ההתקדמות שלך' ];
+	typing_texts = [ 'החלומות שלך' ,'ההתקדמות שלך', 'העסק שלך' ];
 
-	for (i = 0; i < typing_texts.length; i++) {
-		setTimeout(function (i) {
-			typing_machine_input(typing_texts[i], $("#hero-typing"));
-		}, (1500 * (i + 1)) + 200, i)
+	for (j = 0; j < 5; j++) {
+		setTimeout(function () {
+			for (i = 0; i < typing_texts.length; i++) {
+				setTimeout(function (i) {
+					typing_machine_input(typing_texts[i], $("#hero-typing"));
+				}, (1500 * (i + 1)) + 200, i)
+			}
+		}, j * 5000);
 	}
 });
