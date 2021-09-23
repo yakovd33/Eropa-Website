@@ -641,7 +641,7 @@ img#ver-dash {
 }
 #what-can-we-do-items {
   max-width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 30px 0;
 }
 #what-can-we-do-items .grid__col:first-child .wcwd-design-item {
