@@ -257,6 +257,7 @@ img#ver-dash {
 .section#projects-section {
   color: #fff;
   padding: 0;
+  padding-bottom: 20px;
 }
 .project-title {
   color: #8c8c8c;
@@ -1818,7 +1819,7 @@ textarea.input100 {
 /* Testemonials section */
 .gtco-testimonials {
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
   overflow-x: hidden;
   padding-bottom: 30px;
 }
@@ -2207,6 +2208,10 @@ textarea.input100 {
   }
   #what-you-get-section .grid__col:nth-of-type(2) {
     padding: 0 !important;
+  }
+
+  .gtco-testimonials .card {
+    margin: 0 10px;
   }
 }
 @media (min-width: 1500px) {
