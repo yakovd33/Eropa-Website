@@ -1876,6 +1876,11 @@ textarea.input100 {
   position: relative;
 }
 
+.testi-item:hover {
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+
 .gtco-testimonials .card .card-img-top {
   max-width: 100px;
   border-radius: 50%;
