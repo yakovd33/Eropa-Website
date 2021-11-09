@@ -67,8 +67,8 @@ body {
   text-align: center;
 }
 .wcwd-item .text .title {
-  font-weight: 700;
   font-size: 1.4rem;
+  font-weight: 800;
 }
 .wcwd-item .text .det {
   font-size: 17px;
@@ -442,10 +442,12 @@ img#ver-dash {
   overflow-x: hidden;
   padding-top: 100px;
   animation-name: hero-bg;
+  animation-delay: 2s;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   background-size: 200%;
   background-position: center;
+  margin-bottom: -5px;
 }
 
 @keyframes hero-bg {

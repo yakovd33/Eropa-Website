@@ -582,6 +582,7 @@ a {
   left: 0;
   background-color: #fff;
   z-index: 99999999;
+  /* display: none !important; */
 }
 #preload-content {
   position: fixed;

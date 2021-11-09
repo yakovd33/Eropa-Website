@@ -252,9 +252,9 @@ $(window).scroll(function () {
 
 // Preload
 setTimeout(function () {
-	$("#preload").fadeOut();
+	$("#preload").hide();
 	$('body').css('overflow-y', 'scroll');
-}, 1000);
+}, 100);
 
 // Contact suggest popup
 setTimeout(function () {
