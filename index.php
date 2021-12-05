@@ -238,119 +238,6 @@
 			</div>
 		</div>
 
-		<div id="packages-section">
-			<div id="packages-section-title-wrap">
-				<div id="packages-section-tiny-title"> בחר/י את התוכנית שמדברת אלייך </div>
-				<div id="packages-section-title"> בחירת תוכנית עבודה מתומחרת </div>
-			</div>
-			<div id="pricing-tabs">
-				<div class="pricing-tab" data-tab="one-time" style="border-radius: 0 6px 6px 0">תשלום חד פעמי</div>
-				<div class="pricing-tab active" data-tab="monthly" style="border-radius: 0">תשלום חודשי</div>
-				<div class="pricing-tab" data-tab="yearly" style="border-radius: 6px 0 0 6px">תשלום שנתי</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="packaging-item" id="italy-package-item">
-							<div class="packaging-item-top-bg" id="italy-top-bg"></div>
-							<div class="packaging-item-package-name">One Page</div>
-							<div class="packaging-item-flag" id="italy-flag">
-								<h1 class="packaging-item-flag-title">עמוד נחיתה</h1>
-								<div class="packaging-item-flag-desc">כך תשיגו לקוחות פוטנציאליים</div>
-							</div>
-							<div class="packaging-item-package-content">
-								<div class="packaging-item-package-price">
-									<span class="price-num" data-pricemonth="149" data-priceyear="1499"
-										data-priceonce="999">149</span>
-									<super>₪</super>
-								</div>
-								<div class="packaging-item-package-type-of-payment">תשלום חודשי</div>
-								<div class="sep"></div>
-								<div class="packaging-item-desc">
-									<div class="packaging-item-desc-item">עיצוב האתר וחווית משתמש <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">קידום בסיסי בשיטת SEO <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">אתר נקי וטעינת אתר מהירה <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">הכנסת תמונות ותוכן <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">טופס יצירת קשר/לידים מקושר <i
-											class="fas fa-check-circle"></i></div>
-								</div>
-							</div>
-							<div class="coose-package-btn"> בחר בחבילה זו <i class="fas fa-arrow-left"></i> </div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="packaging-item" id="germany-package-item">
-							<div class="packaging-item-top-bg" id="germany-top-bg"></div>
-							<div class="packaging-item-package-name">אתר מכירתי</div>
-							<div class="packaging-item-flag" id="germany-flag">
-								<h1 class="packaging-item-flag-title">אתר חנות למכירות</h1>
-								<div class="packaging-item-flag-desc">להשיג יותר מכירות דרך הרשת</div>
-							</div>
-							<div class="packaging-item-package-content">
-								<div class="packaging-item-package-price">
-									<span class="price-num" data-pricemonth="249" data-priceyear="2400"
-										data-priceonce="4000">249</span>
-									<super>₪</super>
-								</div>
-								<div class="packaging-item-package-type-of-payment">תשלום חודשי</div>
-								<div class="sep"></div>
-								<div class="packaging-item-desc">
-									<div class="packaging-item-desc-item">עיצוב האתר וחווית משתמש <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">קידום בסיסי בשיטת SEO <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">אתר נקי וטעינת אתר מהירה <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">הכנסת תמונות ותוכן <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">טופס יצירת קשר/לידים מקושר <i
-											class="fas fa-check-circle"></i></div>
-								</div>
-							</div>
-							<div class="coose-package-btn"> בחר בחבילה זו <i class="fas fa-arrow-left"></i> </div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="packaging-item" id="russia-package-item">
-							<div class="packaging-item-top-bg" id="russia-top-bg"></div>
-							<div class="packaging-item-package-name">אתר תדמיתי</div>
-							<div class="packaging-item-flag" id="russia-flag">
-								<h1 class="packaging-item-flag-title">אתר אינטרנט</h1>
-								<div class="packaging-item-flag-desc">אתר תדמית לקידום העסק שלכם</div>
-							</div>
-							<div class="packaging-item-package-content">
-								<div class="packaging-item-package-price">
-									<span class="price-num" data-pricemonth="199" data-priceyear="1799"
-										data-priceonce="2999">199</span>
-									<super>₪</super>
-								</div>
-								<div class="packaging-item-package-type-of-payment">תשלום חודשי</div>
-								<div class="sep"></div>
-								<div class="packaging-item-desc">
-									<div class="packaging-item-desc-item">עיצוב האתר וחווית משתמש <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">קידום בסיסי בשיטת SEO <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">אתר נקי וטעינת אתר מהירה <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">הכנסת תמונות ותוכן <i
-											class="fas fa-check-circle"></i></div>
-									<div class="packaging-item-desc-item">טופס יצירת קשר/לידים מקושר <i
-											class="fas fa-check-circle"></i></div>
-								</div>
-							</div>
-							<div class="coose-package-btn"> בחר בחבילה זו <i class="fas fa-arrow-left"></i> </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p id="packages-section-desc"><strong>המחירים המצוינים כאן אינם בהתחייבות ובהתאם לדרישתכם כך שייתכן שינוי
-					בהצעת המחיר הסופית.</strong></p>
-		</div>
 		<div class="section" id="projects-section">
 			<div id="jobs-section-titles">
 				<h4 id="jobs-section-tiny-title"> היינו קצת עסוקים בזמן האחרון </h4>
@@ -461,6 +348,121 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="packages-section">
+			<div id="packages-section-title-wrap">
+				<div id="packages-section-tiny-title"> בחרו תוכנית המתאימה לכם </div>
+				<div id="packages-section-title"> תוכניות האחסון שלנו </div>
+			</div>
+			<div id="pricing-tabs">
+				<!-- <div class="pricing-tab" data-tab="one-time" style="border-radius: 0 6px 6px 0">תשלום חד פעמי</div> -->
+				<div class="pricing-tab active" data-tab="monthly" style="border-radius: 0">תשלום חודשי</div>
+				<div class="pricing-tab" data-tab="yearly" style="border-radius: 6px 0 0 6px">תשלום שנתי</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="packaging-item" id="italy-package-item">
+							<div class="packaging-item-top-bg" id="italy-top-bg"></div>
+							<div class="packaging-item-package-name">One Page</div>
+							<div class="packaging-item-flag" id="italy-flag">
+								<h1 class="packaging-item-flag-title">שרתים וירטואליים</h1>
+								<div class="packaging-item-flag-desc">שרתים וירטואליים משתלמים ומהירים</div>
+							</div>
+							<div class="packaging-item-package-content">
+								<div class="packaging-item-package-price">
+									<span class="price-num" data-pricemonth="39" data-priceyear="440"
+										data-priceonce="999">39</span>
+									<super>₪</super>
+								</div>
+								<div class="packaging-item-package-type-of-payment">תשלום חודשי</div>
+								<div class="sep"></div>
+								<div class="packaging-item-desc">
+									<div class="packaging-item-desc-item">נפח אחסון: 1GB <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">דומיינים: 1 <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">תעבורה חודשית: 10GB <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">תיבות מייל: 6 <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">טופס יצירת קשר/לידים מקושר <i
+											class="fas fa-check-circle"></i></div>
+								</div>
+							</div>
+							<div class="coose-package-btn"> בחר בחבילה זו <i class="fas fa-arrow-left"></i> </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="packaging-item" id="germany-package-item">
+							<div class="packaging-item-top-bg" id="germany-top-bg"></div>
+							<div class="packaging-item-package-name">אתר מכירתי</div>
+							<div class="packaging-item-flag" id="germany-flag">
+								<h1 class="packaging-item-flag-title">אחסון וורדפרס</h1>
+								<div class="packaging-item-flag-desc">אחסון אתרי וורדפרס שלנו במחיר נוח ומשתלם</div>
+							</div>
+							<div class="packaging-item-package-content">
+								<div class="packaging-item-package-price">
+									<span class="price-num" data-pricemonth="20" data-priceyear="200"
+										data-priceonce="4000">20</span>
+									<super>₪</super>
+								</div>
+								<div class="packaging-item-package-type-of-payment">תשלום חודשי</div>
+								<div class="sep"></div>
+								<div class="packaging-item-desc">
+									<div class="packaging-item-desc-item">נפח אחסון: 1GB <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">דומיינים: 1 <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">תעבורה חודשית: 10GB <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">תיבות מייל: 6 <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">טופס יצירת קשר/לידים מקושר <i
+											class="fas fa-check-circle"></i></div>
+								</div>
+							</div>
+							<div class="coose-package-btn"> בחר בחבילה זו <i class="fas fa-arrow-left"></i> </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="packaging-item" id="russia-package-item">
+							<div class="packaging-item-top-bg" id="russia-top-bg"></div>
+							<div class="packaging-item-package-name">אתר תדמיתי</div>
+							<div class="packaging-item-flag" id="russia-flag">
+								<h1 class="packaging-item-flag-title">אחסון אתרים</h1>
+								<div class="packaging-item-flag-desc">אחסון על בסיס CPanel</div>
+							</div>
+							<div class="packaging-item-package-content">
+								<div class="packaging-item-package-price">
+									<span class="price-num" data-pricemonth="25" data-priceyear="260"
+										data-priceonce="2999">25</span>
+									<super>₪</super>
+								</div>
+								<div class="packaging-item-package-type-of-payment">תשלום חודשי</div>
+								<div class="sep"></div>
+								<div class="packaging-item-desc">
+									<div class="packaging-item-desc-item">נפח אחסון: 1GB <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">דומיינים: 1 <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">תעבורה חודשית: 10GB <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">תיבות מייל: 6 <i
+											class="fas fa-check-circle"></i></div>
+									<div class="packaging-item-desc-item">טופס יצירת קשר/לידים מקושר <i
+											class="fas fa-check-circle"></i></div>
+								</div>
+							</div>
+							<div class="coose-package-btn"> בחר בחבילה זו <i class="fas fa-arrow-left"></i> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p id="packages-section-desc"><strong>המחירים המצוינים כאן אינם בהתחייבות ובהתאם לדרישתכם כך שייתכן שינוי
+					בהצעת המחיר הסופית.</strong></p>
+		</div>
+
 		<br>
 		<div id="hero">
 			<div id="hero-content">
@@ -519,11 +521,14 @@
 		</div>
 		<div class="section" id="ways-of-making-money-section">
 			<div id="packages-section-title-tech"> הטכנולוגיות שלנו </div>
+
+			<div id="tech-particles"></div>
+			
 			<div>
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-sm-12">
-							<a href="#" class="home-services-item">
+							<a href="#" class="home-services-item glass">
 								<div class="wtmm-title">
 									<i class="fab fa-node-js"></i>
 									<h5 class="services-title">מערכות צד שרת מבוססות Node.js</h5>
@@ -533,7 +538,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12">
-							<a href="#" class="home-services-item">
+							<a href="#" class="home-services-item glass">
 								<div class="wtmm-title">
 									<i class="fa fa-globe"></i>
 									<h5 class="services-title">עיצוב אתרים בסטנדרט הגבוה ביותר</h5>
@@ -543,7 +548,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12">
-							<a href="#" class="home-services-item">
+							<a href="#" class="home-services-item glass">
 								<div class="wtmm-title">
 									<i class="fab fa-wordpress"></i>
 									<h5 class="services-title">אתרים מבוססים על מערכת וורדפרס</h5>
@@ -553,7 +558,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12">
-							<a href="#" class="home-services-item">
+							<a href="#" class="home-services-item glass">
 								<div class="wtmm-title">
 									<i class="fab fa-react"></i>
 									<h5 class="services-title">ממשקי משתמש מתקדמים עם React.js</h5>
@@ -563,7 +568,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12">
-							<a href="#" class="home-services-item">
+							<a href="#" class="home-services-item glass">
 								<div class="wtmm-title">
 									<i class="fab fa-google"></i>
 									<h5 class="services-title">קידום אורגני בגוגל למקום #1</h5>
@@ -573,7 +578,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12">
-							<a href="#" class="home-services-item">
+							<a href="#" class="home-services-item glass">
 								<div class="wtmm-title">
 									<i class="fa fa-code"></i>
 									<h5 class="services-title">פיתוח אתרים בהתאמה אישית</h5>

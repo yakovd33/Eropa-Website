@@ -90,6 +90,7 @@ body {
   margin-top: -15px;
   max-width: 100%;
 }
+
 #our-technologies .technology {
   cursor: pointer;
   position: relative;
@@ -327,6 +328,16 @@ img#ver-dash {
   overflow: visible;
   padding-bottom: 150px;
 }
+
+#tech-particles {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 #ways-of-making-money-section .page-bottom:after {
   content: "";
   position: absolute;
@@ -395,7 +406,7 @@ img#ver-dash {
 }
 .home-services-item.active:before,
 .home-services-item:hover:before {
-  opacity: 1;
+  /* opacity: 1; */
 }
 .home-services-item.active .services-title,
 .home-services-item:hover .services-title {
@@ -410,7 +421,7 @@ img#ver-dash {
   font-weight: 400;
   font-size: 19px;
   line-height: 26px;
-  color: #3b566e;
+  color: #fff;
   margin-bottom: 13px !important;
   letter-spacing: 0.7px;
   transition: all 0.3s ease 0s;
@@ -420,7 +431,7 @@ img#ver-dash {
 .home-services-item i {
   font-size: 26px;
   margin-bottom: 1px;
-  background-image: linear-gradient(127deg, #384dff 0, #24cdff 91%);
+  background-image: linear-gradient(127deg,#e9ebff 0,#24cdff 91%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease 0s;
@@ -434,6 +445,7 @@ img#ver-dash {
   margin-bottom: 0 !important;
   font-size: 16px;
   height: 80px;
+  color: #fff;
 }
 #hero-new {
   background-image: linear-gradient(80deg, #1f0098 0, #05d7f0 100%);
@@ -532,7 +544,9 @@ img#ver-dash {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  margin-top: -15px;
 }
+
 #wcwd-content {
   position: absolute;
   top: -200px;
@@ -690,7 +704,7 @@ img#ver-dash {
   position: relative;
   text-align: center;
   margin: auto;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   z-index: 88888;
   font-size: 1.2rem;
   display: table;
@@ -804,12 +818,18 @@ img#ver-dash {
   transition: 0.44s ease-in-out;
   line-height: 21px;
 }
+
 .pricing-tab.active {
   background: #0160e7;
   color: #fff;
   box-shadow: 0 0 20px rgba(1, 96, 231, 0.3);
   font-weight: 700;
 }
+
+.pricing-tab:first-child {
+  border-radius: 0 6px 6px 0 !important;
+}
+
 .packaging-item {
   background-color: #fff;
   border-radius: 15px;
@@ -892,7 +912,7 @@ img#ver-dash {
   display: inline-block;
   margin: auto;
   margin-right: 10px;
-  filter: blur(5px);
+  /* filter: blur(5px); */
   transition: 0.5s ease-in-out;
   margin-top: 20px;
 }
@@ -901,7 +921,7 @@ img#ver-dash {
   font-weight: 700;
 }
 .packaging-item-package-price .price-num:before {
-  content: "החל מ";
+  /* content: "החל מ"; */
   position: absolute;
   top: -11px;
   left: 50%;
@@ -1819,6 +1839,10 @@ textarea.input100 {
 }
 
 /* Testemonials section */
+#testimonials-section {
+  background-color: #f7f7f7;
+  margin-bottom: 50px;
+}
 .gtco-testimonials {
   position: relative;
   margin-top: 10px;
@@ -1932,6 +1956,31 @@ textarea.input100 {
   max-width: 100%;
   height: 120px;
   width: 120px;
+}
+
+.glass {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  background: #ffffff17;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.glass:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .1);
+  filter: blur(20px);
+  opacity: 1;
+  /* margin: -20px; */
 }
 
 @media (max-width: 767px) {
