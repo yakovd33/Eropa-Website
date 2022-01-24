@@ -283,6 +283,15 @@
 						<div class="project-card-title">נייטלייט - חנות מתנות</div>
 					</div>
 				</a>
+
+				<a href="https://pryerek.co.il/" target="_blank">
+					<div class="project-card">
+						<div class="frame"> <img lsrc="media/websites/pryerek.jpg"
+								style="object-fit: cover; height: 100%;" alt=""> </div>
+						<div class="project-card-title"> פרי וירק ארצנו - חנות פירות וירקות</div>
+					</div>
+				</a>
+				
 				<a href="https://thebuzzer.co.il/" target="_blank">
 					<div class="project-card">
 						<div class="frame"> <img lsrc="media/websites/badama.jpg" alt=""> </div>
@@ -639,9 +648,9 @@
 					<ul class="footer-nav">
 						<li><a href="https://night-light.co.il"><span>Night-Light</span></a></li>
 						<li><a href="https://thebuzzer.co.il"><span>הבאזר - buzzer</span></a></li>
-						<li><a href="#"><span>BluePrint</span></a></li>
+						<li><a href="https://pryerek.co.il/"><span>פרי וירק ארצנו</span></a></li>
 						<li><a href="#"><span>הומוורקס - HomeWorks</span></a></li>
-						<li><a href="#"><span>Smart Office</span></a></li>
+						<li><a href="#"><span>BluePrint</span></a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-4 col-sm-6 col-6">
